@@ -238,7 +238,9 @@ The evaluation framework goes beyond ROC-AUC.
                                       defaulters above non-defaulters
 
   Gini coefficient                    Discriminatory power, calculated as
-                                      (2 `\times `{=tex}AUC - 1)
+                                        \[
+                                         \mathrm{Gini} = 2 \times \mathrm{AUC} - 1
+                                        \]
 
   KS statistic                        Maximum separation between default
                                       and non-default score distributions
